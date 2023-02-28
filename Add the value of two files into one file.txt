@@ -1,10 +1,3 @@
-
-
-
-/**
- * C program to merge contents of two files to third file.
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -32,9 +25,9 @@ int main()
      * Open source files in 'r' and
      * destination file in 'w' mode
      */
-    sourceFile1 = fopen("D:\\Dev-Cpp\\AliZare", "r");
-    sourceFile2 = fopen("D:\\Dev-Cpp\\Factore", "r");
-    destFile    = fopen("D:\\Dev-Cpp\\Blue While","w");
+    sourceFile1 = fopen("First file path", "r");
+    sourceFile2 = fopen("The path of the second file", "r");
+    destFile    = fopen("Third file path ","w");
 
 
     /* fopen() return NULL if unable to open file in given mode. */
